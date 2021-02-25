@@ -1,0 +1,28 @@
+@import "./../../../variables";
+
+#about-bot {
+   display: flex;
+   padding-bottom: 80px;
+   img {
+      width: 50%;
+      height: 600px;
+      object-fit: cover;
+   }
+}
+
+#about-bot-text {
+   max-width: 457px;
+   margin: 40px;
+   h2 {
+      text-align: left;
+   }
+}
+
+@media (max-width: 580px) {
+   #about-bot {
+      flex-direction: column;
+      img {
+         width: 100%;
+      }
+   }
+}

@@ -1,0 +1,142 @@
+@import "variables";
+
+@font-face {
+   font-family: Lato;
+   src: url("./fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+   font-family: Silo;
+   src: url("./fonts/Silhouetto-Script.ttf");
+}
+
+@font-face {
+   font-family: OldStandard;
+   src: url("./fonts/OldStandardTT-Regular.ttf");
+}
+
+@font-face {
+   font-family: Montserrat;
+   src: url("./fonts/Montserrat-Bold.ttf");
+}
+
+// Custom scroll
+/* width */
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   background: #b7b7b7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: lightskyblue;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background: rgb(25, 112, 167);
+}
+
+// Global styles
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   overflow-x: hidden;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+}
+
+a {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: $grey;
+   font-family: Lato, sans-serif;
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+
+a:hover {
+   color: $black;
+}
+
+h2 {
+   font-family: Montserrat, sans-serif;
+   font-size: 2.4rem;
+   line-height: 1.6;
+   margin-bottom: 20px;
+   color: $black;
+   text-transform: uppercase;
+}
+
+p {
+   font-family: OldStandard;
+   font-size: 2rem;
+   line-height: 1.6;
+   margin-bottom: 20px;
+}
+
+nav {
+   border-top: 10px solid $grey;
+}
+
+ul {
+   width: 80%;
+   display: flex;
+   justify-content: space-evenly;
+   list-style-type: none;
+   left: 0;
+   right: 0;
+   margin: 12.5px auto;
+}
+
+.underscore {
+   width: 210px;
+   height: 2px;
+   margin-top: 20px;
+   background-color: $grey2;
+}
+
+.center-line {
+   width: 2px;
+   background-color: $grey2;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+.div-links {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: $grey;
+   font-family: Lato, sans-serif;
+   font-size: 1.2rem;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+.div-links:hover {
+   color: $black;
+}
