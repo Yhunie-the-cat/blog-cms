@@ -1,6 +1,6 @@
 # Blog
 
-Blog website using [React](https://github.com/facebook/create-react-app) and [Sanity](https://github.com/sanity-io/sanity)\
+Blog website using [React](https://github.com/facebook/create-react-app) and [Sanity](https://github.com/sanity-io/sanity)
 
 Deployed on heroku: [link](https://kate-blog-cms.herokuapp.com)
 
