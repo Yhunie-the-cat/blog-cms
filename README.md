@@ -12,6 +12,7 @@ For running frontend (react) use:
 
 ```
 cd frontend
+npm i
 npm start
 ```
 
