@@ -2,6 +2,10 @@
 
 Blog website using [React](https://github.com/facebook/create-react-app) and [Sanity](https://github.com/sanity-io/sanity)
 
+### Design
+
+[Link](http://kate.theroar.nl)
+
 ## Available Scripts
 
 For running frontend (react) use:
