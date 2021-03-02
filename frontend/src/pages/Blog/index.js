@@ -1,11 +1,11 @@
 import Wrapper from "./../Wrapper";
 import BlogContent from "./BlogContent";
 
-export default function BlogPage() {
+export default function BlogPage({ data }) {
    return (
       <>
          <Wrapper>
-            <BlogContent />
+            <BlogContent data={data} />
          </Wrapper>
       </>
    );

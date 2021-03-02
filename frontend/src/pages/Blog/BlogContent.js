@@ -1,35 +1,8 @@
-import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import woman_in_sunglasses from "./../../images/woman_in_sunglasses.jpg";
 import "./styles/blogcontent.scss";
 
-import sanityClient from "../../client.js";
-
-export default function BlogContent() {
-   const [data, setData] = useState(null);
-
-   useEffect(() => {
-      sanityClient
-         .fetch(
-            `*[_type=="post"]{
-   title,
-   slug,
-   mainImage{
-      asset->{
-         _id,
-         url
-      },
-      alt
-   }
-}`
-         )
-         .then((res) => {
-            console.log(res);
-            setData(res);
-         })
-         .catch((err) => console.error(err));
-   }, []);
-
+export default function BlogContent({ data }) {
    return (
       <section id="blog-mid">
          <div id="blog-mid-text-content">
