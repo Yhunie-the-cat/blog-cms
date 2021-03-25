@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import Wrapper from "./../Wrapper";
+import Wrapper from "../Wrapper";
 import GalleryHeader from "./GalleryHeader";
 import Gallery from "./Gallery";
 

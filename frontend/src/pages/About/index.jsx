@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import Wrapper from "./../Wrapper";
+import Wrapper from "../Wrapper";
 import Introduction from "./Introduction";
 import Description from "./Description";
 import Facts from "./Facts";

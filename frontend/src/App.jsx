@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
 import PhotosPage from "./pages/Photos";
-import BlogPage from "./pages/Blog/";
+import BlogPage from "./pages/Blog";
 import ContactPage from "./pages/Contact";
 import SinglePost from "./pages/SinglePost";
 import PageNotFound from "./pages/PageNotFound";

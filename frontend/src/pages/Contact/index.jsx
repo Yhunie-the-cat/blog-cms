@@ -1,4 +1,4 @@
-import Wrapper from "./../Wrapper";
+import Wrapper from "../Wrapper";
 import Form from "./Form";
 
 export default function ContactPage() {
