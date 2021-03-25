@@ -4,27 +4,23 @@ import pen from "./../../images/pen.jpg";
 import "./styles/form.scss";
 
 export default function Form() {
-   const nameRef = useRef();
-   const name = nameRef.current;
-
-   const emailRef = useRef();
-   const email = emailRef.current;
-
-   const subjectRef = useRef();
-   const subject = subjectRef.current;
-
-   const messageRef = useRef();
-   const message = messageRef.current;
+   const nameRef = useRef(null);
+   const emailRef = useRef(null);
+   const subjectRef = useRef(null);
+   const messageRef = useRef(null);
 
    const handleSubmit = (e) => {
-      if (!email.value.includes("@") || !email.value.includes(".")) {
+      if (
+         !emailRef.current.value.includes("@") ||
+         !emailRef.current.value.includes(".")
+      ) {
          alert("Wrong email format!");
       } else {
          alert("Email has been sent!");
-         name.value = "";
-         email.value = "";
-         subject.value = "";
-         message.value = "";
+         nameRef.current.value = "";
+         emailRef.current.value = "";
+         subjectRef.current.value = "";
+         messageRef.current.value = "";
       }
       e.preventDefault();
    };

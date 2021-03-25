@@ -6,7 +6,7 @@ import Facts from "./Facts";
 import Quote from "./Quote";
 
 export default function AboutPage() {
-   const targetRef = useRef();
+   const targetRef = useRef(null);
 
    const handleClick = () => {
       targetRef.current.scrollIntoView();

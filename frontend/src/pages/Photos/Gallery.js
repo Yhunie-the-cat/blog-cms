@@ -12,11 +12,11 @@ export default function Gallery() {
    const [size, setSize] = useState(0);
    const [carouselImages, setCarouselImages] = useState([]);
 
-   const firtClone = useRef();
-   const lastClone = useRef();
-   const carouselSlide = useRef();
-   const prevButton = useRef();
-   const nextButton = useRef();
+   const firtClone = useRef(null);
+   const lastClone = useRef(null);
+   const carouselSlide = useRef(null);
+   const prevButton = useRef(null);
+   const nextButton = useRef(null);
 
    const time = 0.5;
 

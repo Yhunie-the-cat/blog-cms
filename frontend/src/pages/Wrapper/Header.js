@@ -5,8 +5,8 @@ import "./styles/header.scss";
 export default function Header() {
    const [isClicked, setIsClicked] = useState(false);
    const [navLinks, setNavLinks] = useState([]);
-   const burgerRef = useRef();
-   const menuRef = useRef();
+   const burgerRef = useRef(null);
+   const menuRef = useRef(null);
 
    useEffect(() => {
       setNavLinks(Object.values(menuRef.current.children));

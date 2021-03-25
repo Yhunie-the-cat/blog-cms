@@ -28,7 +28,6 @@ export default function App() {
                     }`
          )
          .then((res) => {
-            //console.log(res);
             setData(res);
          })
          .catch((err) => console.error(err));

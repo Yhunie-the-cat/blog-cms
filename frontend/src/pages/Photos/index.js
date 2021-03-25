@@ -4,7 +4,7 @@ import GalleryHeader from "./GalleryHeader";
 import Gallery from "./Gallery";
 
 export default function PhotosPage() {
-   const targetRef = useRef();
+   const targetRef = useRef(null);
 
    const handleClick = () => {
       targetRef.current.scrollIntoView();
