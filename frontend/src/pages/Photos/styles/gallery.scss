@@ -7,6 +7,7 @@
    display: flex;
    flex-direction: column;
    align-items: center;
+   padding-bottom: 20px;
 }
 
 #photos-bot-text-container {
@@ -33,17 +34,17 @@
 
 #photos-bot-sliding-gallery-container {
    overflow-x: hidden;
-   height: 540px;
+   height: 560px;
    position: relative;
 }
 
 #photos-bot-sliding-gallery {
    display: flex;
-   width: 840px;
+   width: 720px;
    height: fit-content;
    img {
-      width: 400px;
-      height: 500px;
+      width: 340px;
+      height: 520px;
       object-fit: cover;
       object-position: center;
       margin: 0 10px;
@@ -53,7 +54,7 @@
 #gallery-buttons {
    position: absolute;
    right: 10px;
-   bottom: 0;
+   bottom: 0px;
    button {
       font-family: Lato;
       text-transform: uppercase;
