@@ -1,14 +1,18 @@
 # Blog
 
-Blog website using [React](https://github.com/facebook/create-react-app) and [Sanity](https://github.com/sanity-io/sanity)
+Fullstack traveller/photographer blog using cms for create, update, delete blog posts.
 
-Deployed on heroku: [link](https://kate-blog-cms.herokuapp.com)
+## Links
 
-Design from: [here](http://kate.theroar.nl)
+Live version: [link](https://kate-blog-cms.herokuapp.com)\
+Frontend: [React](https://github.com/facebook/create-react-app)\
+For create, update, delete posts I used [Sanity](https://github.com/sanity-io/sanity) on default as backend cms.\
+Design: [link](http://kate.theroar.nl)\
+Style guide: [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react)
 
-## Available Scripts
+## Usage
 
-For running frontend (react) use:
+For running frontend use:
 
 ```
 cd frontend
